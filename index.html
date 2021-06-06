@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid 19 test</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <style>
+      @media only screen and (max-width: 768px) {
+        .content-text {
+          max-width: none;
+        }
+        header .content-text h1 {
+          line-height: normal;
+          font-size: 50px;
+          color: rgb(226, 99, 48);
+        }
+        header .content-text p {
+          font-size: 25px;
+        }
+        .btn {
+          border-radius: 5px;
+          margin-top: 25px;
+          background: tomato;
+        }
+        .covid-test .covid {
+          padding: 15px;
+        }
+        .container {
+          flex-direction: column;
+        }
+        .right .card {
+          width: 100%;
+        }
+        .fas {
+          color: tomato;
+        }
+        .content-1 {
+          padding: 0;
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        header .content-text h1 {
+          line-height: normal;
+          font-size: 35px;
+          color: rgb(226, 99, 48);
+        }
+        header .content-text p {
+          font-size: 15px;
+        }
+        header .btn {
+          border-radius: 5px;
+          margin-top: 5px;
+          background: rgb(230, 156, 143);
+          border-color: black;
+        }
+        nav {
+          display: none;
+        }
+        .covid-test .covid .card {
+          width: 100%;
+          border-radius: 10px;
+          border-color: purple;
+          background: rgb(0, 0, 0, 0.1);
+        }
+        .content-1 .card img {
+          border-radius: 5px 5px 0 0;
+        }
+        .content-1 .card {
+          width: 100%;
+          border-radius: 5px;
+        }
+        footer p span {
+          color: brown;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Covid</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <i class="fas fa-search"></i>
+      </nav>
+      <div class="content-text">
+        <h1>
+          Prevent the Spread <br />
+          Stay at Home, Stay Safe
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
+        </p>
+        <button style="color: red; font-family: tahoma" class="btn">
+          Read More
+        </button>
+      </div>
+    </header>
+    <section class="covid-test">
+      <div class="covid">
+        <div class="card">
+          <i class="fab fa-keycdn"></i>
+          <h3>9098000</h3>
+          <p>Active Cases</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-users"></i>
+          <h3>182020</h3>
+          <p>Recovered Cases</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-skull-crossbones"></i>
+          <h3>9098000</h3>
+          <p>Active Cases</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-crutch"></i>
+          <h3>9098000</h3>
+          <p>Active Cases</p>
+        </div>
+      </div>
+    </section>
+    <section class="covid-about">
+      <div class="covid-tst">
+        <div class="covid-left">
+          <h3>About The Disease</h3>
+          <h1>
+            Coronavirus Disease Outbreak <br />
+            Situation
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.
+          </p>
+          <div class="txt">Avoid touching your face.</div>
+          <div class="txt">Cover your mouth and nose when coughing.</div>
+          <div class="txt">Stay home if you feel unwell.</div>
+        </div>
+        <div class="covid-right">
+          <div class="row">
+            <img src="./images/1.jpg" alt="" />
+            <img src="./images/2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="self">
+      <div class="container">
+        <div class="left">
+          <h3>How To Protect Yourself?</h3>
+          <h1>Prevention & advice</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce
+            eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut
+            lectus consequat, venenatis eros et, sed commodo risus. Nullam sit
+            amet laoreet elit. Suspendisse non init magnaa velit efficitur.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="right">
+          <div class="card">
+            <i class="fas fa-hands-wash"></i><br />
+            <a href="#" class="sel">Wash your Hands frequently</a>
+          </div>
+          <div class="card">
+            <i class="fas fa-people-arrows"></i> <br />
+            <a href="#" class="sel">Wash your Hands frequently</a>
+          </div>
+          <div class="card">
+            <i class="fas fa-temperature-high"></i><br />
+            <a href="#" class="sel">Wash your Hands frequently</a>
+          </div>
+          <div class="card">
+            <i class="fas fa-surprise"></i><br />
+            <a href="#" class="sel">Wash your Hands frequently</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="steps">
+      <div class="title-1">
+        <h3>Protect Yourself?</h3>
+        <h1>Take Steps To Protect Yourself</h1>
+      </div>
+      <div class="content-1">
+        <div class="card">
+          <img src="./images/s1.jpg" alt="" />
+          <h3>Wash Your Hands</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, eos.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/s2.jpg" alt="" />
+          <h3>Avoid Close Contact</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, eos.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/s3.jpg" alt="" />
+          <h3>Wear A face Mask</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, eos.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/s4.jpg" alt="" />
+          <h3>make a distance</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, eos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Covid | All right reserved By <span>Mafia</span></p>
+    </footer>
+  </body>
+</html>

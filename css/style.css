@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/banner1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+nav {
+  background: rgb(248, 82, 82);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.logo {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(73, 21, 12);
+  text-transform: uppercase;
+}
+.logo img {
+  height: 30px;
+  width: 30px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+nav ul li a:hover {
+  background: black;
+}
+nav .fa-search {
+  text-decoration: none;
+  display: block;
+  background: #fff;
+  padding: 10px 10px;
+  border: 1px solid rgb(114, 106, 106);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+nav .fa-search:hover {
+  background: transparent;
+  border-color: lime;
+  color: #fff;
+}
+header .content-text {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  max-width: 600px;
+}
+header .content-text h1 {
+  color: rgba(23, 114, 199, 0.822);
+  font-size: 45px;
+  line-height: 40px;
+  margin-bottom: 55px;
+}
+header .content-text p {
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+.btn {
+  padding: 5px 15px;
+  font-size: 25px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid tomato;
+}
+.covid-test {
+  height: auto;
+  width: 100%;
+}
+.covid-test .covid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  gap: 15px;
+}
+.covid-test .covid .card {
+  margin-top: 30px;
+  text-align: center;
+  width: 300px;
+  border: 2px solid teal;
+}
+.covid .card .fab,
+.fas {
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 30px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.covid .card .fas:hover {
+  background: tomato;
+  color: #fff;
+}
+.covid .card .fab:hover {
+  background: tomato;
+  color: #fff;
+}
+.covid-test .covid .card h3 {
+  font-size: 30px;
+  color: tomato;
+  margin-bottom: 15px;
+}
+.covid-test .covid .card p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+.covid-test .covid .card:hover {
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.6s;
+}
+
+.covid-about {
+  padding: 100px 0;
+}
+.covid-about .covid-tst {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 15px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.covid-about .covid-tst .covid-left {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.covid-about .covid-tst .covid-left h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.covid-about .covid-tst .covid-left h1 {
+  font-size: 40px;
+  color: tomato;
+  margin-bottom: 15px;
+}
+.covid-about .covid-tst .covid-left p {
+  font-size: 16px;
+}
+.covid-about .covid-tst .covid-left .txt {
+  margin: 10px 0;
+  font-size: 20px;
+  color: lightslategray;
+}
+.covid-about .covid-tst .covid-right {
+  margin: 10px;
+}
+.covid-right .row img {
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.self {
+  padding: 100px 0;
+  width: 100%;
+  background: rgba(114, 119, 124, 0.726);
+}
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 20px;
+  text-align: center;
+}
+.container .left {
+  max-width: 500px;
+}
+.container .left h3 {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.container .left h1 {
+  text-align: left;
+  color: tomato;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.container .left p {
+  font-size: 18px;
+  margin-bottom: 35px;
+  text-align: justify;
+}
+.container .left .btn {
+  display: block;
+  text-align: left;
+  transition: all 0.4s;
+}
+.container .left .btn:hover {
+  background: tomato;
+  color: black;
+}
+.container .right {
+  flex-basis: 50%;
+}
+.container .right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.right .card {
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+.right .card a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.steps {
+  padding: 100px 0;
+  width: 100%;
+}
+.steps .title-1 {
+  padding: 20px 0;
+  text-align: center;
+}
+.steps .title-1 h3 {
+  color: rgb(143, 170, 170);
+  margin-bottom: 10px;
+}
+.steps .title-1 h1 {
+  margin-top: 10px;
+  color: tomato;
+  font-size: 35px;
+}
+.content-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.content-1 .card {
+  margin: 6px;
+  width: 300px;
+  box-shadow: 5px 5px 10px rgba(34, 33, 33, 0.322);
+}
+.content-1 .card img {
+  width: 100%;
+}
+.content-1 .card h3 {
+  color: blueviolet;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+.content-1 .card p {
+  padding: 10px;
+  text-align: justify;
+}
+footer {
+  padding: 30px;
+  background: skyblue;
+}
+footer p {
+  text-align: center;
+  font-size: 30px;
+}
+footer p span {
+  text-transform: uppercase;
+  color: tomato;
+  font-weight: bold;
+}
